@@ -11,7 +11,6 @@ return new class extends Migration
         Schema::create('attendance_breaks', function (Blueprint $table) {
     $table->id();
     $table->foreignId('attendance_id')->constrained()->onDelete('cascade');
-    $table->foreignId('correction_id')->nullable()->constrained('attendance_corrections')->onDelete('cascade');
     $table->timestamp('break_start');
     $table->timestamp('break_end')->nullable();
     $table->timestamps();
