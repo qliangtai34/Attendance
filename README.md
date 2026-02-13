@@ -15,5 +15,5 @@ Laravel環境構築
 使用技術（実行環境）
 
 ・PHP 7.4.9 ・Laravel 8.83.29 ・MySQL 15.1 ・nginx　1.21.1
-
+ER図
 ![alt text](src/ER.png)
